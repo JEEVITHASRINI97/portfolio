@@ -1,17 +1,38 @@
 import React from "react";
-import "./home.css"
+import "./home.css";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import { IconButton,  Stack } from '@mui/material'
 
 function Data() {
   return (
     
     <div className="home__data">
-      <h1 className="home__title "> <span className="underline__effect">Jeevitha</span> Srinivasan 👋</h1>
+      <h1 className="home__title "> <span className="underline__effect"> Hi 👋, I am Jeevitha </span> Srinivasan</h1>
       <h3 className="home__subtitle">Full Stack Web Developer</h3>
-      <p className="home__description">
-        I am a Fullstack Developer specialized in MERN Stack. Applying
-        responsive design principles on web pages and watching them shrink into
-        mobile screens and still look amazing is oddly satisfying.
-      </p>
+      {/* <p className="home__description">
+        I am a Fullstack Developer specialized in MERN Stack. 
+      </p> */}
+      <div className='d-flex flex-row justify-content-flex-start secondary'>
+        <Stack direction='row' spacing={2}   justifyContent="flex-start">
+          <IconButton color="primary"  component="label" >
+            <a  href='https://github.com/JEEVITHASRINI97' target="_blank">
+            <GitHubIcon />
+            </a>
+          </IconButton>
+          <IconButton color="primary"  component="label" >
+          <a href='https://www.linkedin.com/in/jeevitha-srinivasan-0ba070239' target="_blank">
+            <LinkedInIcon />
+            </a>
+          </IconButton>
+          <IconButton color="secondary"  component="label" >
+          <a href='mailto: jeevithasrinivasan97@gmail.com' target="_blank">
+            <MailOutlineIcon />
+            </a>
+          </IconButton>
+        </Stack>
+        </div>
 
       <a href="#contact" className="button button--flex">
         Lets Talk <svg

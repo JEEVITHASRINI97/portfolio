@@ -1,0 +1,12 @@
+.projectFull{
+    width: 100%;
+    min-height: auto;
+    height: fit-content;
+}
+
+
+.imgstyle{
+    width: -webkit-fill-available !important;
+    height: auto;
+    object-fit:fill;
+}

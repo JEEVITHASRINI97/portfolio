@@ -1,0 +1,15 @@
+.Profentire{
+    width: 100%;
+    min-height:100vh;
+}   
+
+.react-sweet-progress-symbol{
+    color: blue !important;
+    /* border: 1px solid black; */
+}
+.Skills{
+    justify-Content:center;
+    align-Items:center;
+     display:flex;
+}
+

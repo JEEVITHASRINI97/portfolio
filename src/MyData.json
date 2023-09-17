@@ -1,0 +1,63 @@
+
+{
+  "projects": {
+    "contentbanner": "Portfolio",
+    "subheader": "What I Contributed ..!",
+    "projectlists": [
+    
+      {
+        "id": 1,
+        "alt": "Item Catalog",
+        "category": "MERN",
+        "image": "https://media.istockphoto.com/id/1133979222/photo/shopping-online-concept-parcel-or-paper-cartons-with-a-shopping-cart-logo-in-a-trolley-on-a.jpg?s=1024x1024&w=is&k=20&c=G-4F0hkAdef7YcIkL0xwTNnMswTaRU9-YZf2vepD5g8=",
+        "link1Fr": "https://github.com/JEEVITHASRINI97/ProjectName-ItemCatalog-FrontEnd--master--1-",
+        "linkBe": "https://github.com/JEEVITHASRINI97/Capstone-Project-Items-Catalog-BackEnd-master--1-",
+        "live": "https://64e7943e30c27939cf1d87ec--serene-alfajores-4dd96b.netlify.app/",
+        "title": "Item Catalog",
+        "text": "Item Catalog like Ecommerce web app you can buy the specify product and add to the carts.",
+        "credentials": ""
+      },
+      {
+        "id": 2,
+        "alt": "CRM Web App",
+        "category": "React",
+        "image": "https://media.istockphoto.com/id/1008005494/photo/education-for-the-future-of-children-educational-equipment.jpg?s=1024x1024&w=is&k=20&c=xYAmbcgXuVpSDaXM9cIbw7R_kYdUlEgx8DUk4buCmWo=",
+        "link1Fr": "https://github.com/JEEVITHASRINI97/Day_26_CRUD_React-main",
+        "linkBe": "",
+        "live": "https://64e4dcb520dd671ffd9faf7a--sage-entremet-44d5c6.netlify.app/",
+        "title": "CRUD Student-Teacher App",
+        "text": "CRUD Student-Teacher App is used in maintaining all student and Teacher details you may do Crud operation using this web app. ",
+        "credentials": ""
+      },
+
+      {
+        "id": 3,
+        "alt": "Library Management System",
+        "category": "FE",
+        "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80",
+        "link1Fr": "https://github.com/JEEVITHASRINI97/librarymanagement",
+        "linkBe": "",
+        "live": "https://64e4ea75839a9000721bbd85--sparkling-mochi-914239.netlify.app/",
+        "title": "Library Management System",
+        "text": "Library Management Made with API Fetch calls , Designed with ReactJS and Material UI",
+        "credentials": ""
+      },
+      {
+        "id": 4,
+        "alt": "Ice and Fire API",
+        "category": "FE",
+        "image": "https://media.istockphoto.com/id/910852368/photo/student-searching-books.jpg?s=1024x1024&w=is&k=20&c=o6yl_axr10ig-Fko9PejRTwr-_Vw-UN1GG1IQlveYNs=",
+        "link1Fr": "https://github.com/JEEVITHASRINI97/Webcode_ICE-FIRE-API",
+        "linkBe": "",
+        "live": "https://rococo-pudding-d98225.netlify.app",
+        "title": "Ice and Fire API",
+        "text": "Made with HTML and Bootstrap, the Ice and Fire API using async/await with fetch .User can view the book details.",
+        "credentials": ""
+      }
+    ],
+    "visitorAction1": "Front-End",
+    "visitorAction2": "Hosting Link",
+    "visitorAction3": "Back-End"
+  }
+
+}

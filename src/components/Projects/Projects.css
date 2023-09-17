@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+:root {
+    --projects-ff: 'Lato', serif;
+}
+
+.content-banner-projects {
+    font-size: 2rem;
+    font-family: var(--projects-ff);
+    font-weight: 600;
+    padding: 1rem 0 0 3rem;
+
+}
+.underline__effect{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,47,47,0.499124649859944) 0%, rgba(82,81,81,0.499124649859944) 100%);
+    background-repeat: no-repeat;
+    background-size: 80% 0.30em;
+    background-position:0 80%;
+  }
+
+
+
+
+.colored {
+    background-color: #FFFFFF;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-family: var(--skills-ff);
+    background-color: #FFFFFF;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: background-color 0.15s ease-in-out;
+}
+
+
+
+.project-card:hover {
+    background-color: lightgrey;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 0 0 5rem 0;
+}
+
+.header {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: var(--projects-ff);
+}
+
+.sub-header {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.titleblock {
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.project-text {
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 0.3rem 0 0.5rem 0;
+}
+
+.project-image {
+    width: 400px;
+    height: 275px;
+    object-fit: cover;
+}
+
+
+
+@media screen and (min-Width:200px) and (max-Width:768px) {
+    .project-image {
+        width: 280px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .titleblock {
+        font-size: 1.0rem;
+        font-weight: 600;
+        padding: 0.4rem 0 0.4rem 0;
+    }
+
+    .project-text {
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0.3rem 0 0.5rem 0;
+    }
+
+    .content-banner-projects {
+        margin-inline: auto;
+        font-size: 3rem;
+        padding: 3rem 0 0 3rem;
+    }
+}
